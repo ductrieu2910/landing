@@ -1,6 +1,6 @@
 
 .pageview{
-    background-image: url(/img/Background.png);
+    background-image: url(../img/Background.png);
     max-width: 420px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@
 .container a::after{
     content: "";
     cursor: pointer;
-    background-image: url(/img/Plus4.png);
+    background-image: url(../img/Plus4.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +136,7 @@
 .container a.active::after{
     content: "";
     cursor: pointer;
-    background-image: url(/img/Plus-1.png);
+    background-image: url(../img/Plus-1.png);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@
     width: 100%;
 }
 .img6{
-    background-image: url(/img/Frameboard.png);
+    background-image: url(../img/Frameboard.png);
     height: auto;
     position: relative;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@
         display: block;
 }
 .img15{
-        background-image: url(/img/Frameboard.png);
+        background-image: url(../img/Frameboard.png);
         height: auto;
         position: relative;
         background-repeat: no-repeat;
