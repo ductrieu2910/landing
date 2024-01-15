@@ -3,7 +3,7 @@
         max-width: 429px;
     }
     .live-game{
-        background-image: url(/img/Frameboard.png);
+        background-image: url(img/Frameboard.png);
         max-width: 429px;
         background-repeat: no-repeat;
         background-size: cover;
