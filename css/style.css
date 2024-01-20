@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,800;1,900&display=swap');
 .pageview{
     background-image: url(../img/Background.png);
-    max-width: 420px;
+    max-width: 768px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -34,37 +34,43 @@
 }
 
 /* NavBar */
+.container-nav{
+}
 .img5{
     width: 100%;
 }
 .img5{
-    background-image: url(../img/Frameboard.png);
+    
+    background-image: url(/img/Frameboard.png);
     height: auto;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 23px 23px 10px 23px;
+    padding: 42px 23px 10px 23px;
 }
 .playgame .content.active{
     background-color: #010d7c;
     border-radius: 0px 0px 13px 13px;
 }
+.container{
+    top: 0%;
+}
 .container a img{
-    width: 22%;
+    width: 25%;
     position: absolute;
     z-index: 2;
     right: 20px;
-    top: 15px;
+    top: 10px;
 }
-.container a span{
+.container a p{
     position: absolute;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 900;
     color: #fff;
     z-index: 2;
-    top: 6px;
-    left: 70px;
+    top: 20px;
+    left: 118px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +95,7 @@
     font-size: 19px;
     font-weight: 900;
     color: white;
-    padding: 18px 0 18px 50px;
+    padding: 18px 0 73px 50px;
     position: relative;
     padding-top: 40px;
     -webkit-transition: all 0.2s ease 0.15s;
@@ -99,11 +105,12 @@
 .container a::before{
     content: "";
     position: absolute;
-    width: 230px;
+    width: 268px;
     border-radius: 10px;
     z-index: 1;
-    height: 50px;
-    top: 2px;
+    height: 76px;
+    top: 15px;
+    left: 110px;
     background-color: #010d7c; 
 }
 .container a.active{
@@ -123,10 +130,10 @@
     background-size: cover;
     font-weight: bold;
     float:left;
-    left: 5px;
-    bottom:  15px;
-    width: 30px;
-    height:  30px;
+    left: 50px;
+    bottom: 50px;
+    width: 35px;
+    height:  35px;
     position: absolute;
     z-index: 99;
     -webkit-border-radius: 50%;
@@ -142,10 +149,10 @@
     background-size: cover;
     font-weight: bold;
     float: left;
-    left:  5px;
-    bottom: 15px;
-    width:  30px;
-    height:  30px;
+    left:  50px;
+    bottom: 50px;
+    width:  35px;
+    height:  35px;
     position: absolute;
     z-index: 99;
     border-radius:  50%;
@@ -160,10 +167,11 @@
     transition:  all 0.2s ease 0.15s;
 }
 .container .content p {
-    font-size:  16px;
+    font-size:  25px;
     font-weight: 600;
     color:  #fff;
-
+    margin-left: 37px;
+    margin-top: -3%;
 } 
 .container .content.active{
     opacity: 1;
@@ -178,14 +186,16 @@
     
 }
 .content-gift{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
     background-color: #010d7c;
     padding: 20px 16px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 30px;
+    margin-left: 50px;
+    max-width: 86%;
 }
 .text1{
     display: flex;
@@ -216,15 +226,19 @@
     
 }
 .img8{
-   margin: 8%;
+   margin: -3% -1% 7% 0%;
+   width: 46%;
+  
 }
 .img9{
     margin: 8%;
 }
 .img10{
     width: 48%;
-    margin-top: -4px;
+    margin-top: 15px;
     margin-bottom: 1%;
+    margin-left: 10px;
+    margin-right: -3px;
 }
 .container-ticket{
     text-align: center;
@@ -245,6 +259,43 @@
 .img14{
     margin-top: 25px;
 }
+h3{
+    color: #fff;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10%;
+    text-shadow: -1.5px -1.5px 0 #f05411, 1.5px -1.5px 0 #f05411, -1.5px 1.5px 0 #f05411, 1.5px 1.5px 0 #f05411;
+}
+.container-ticket{
+    text-align: center;
+    margin-bottom: 20%;
+}
+.container-ticket .img12_10k{
+    position: absolute;
+    transform: translateX(-43%) translateY(-5%) rotate(-22.602deg);
+    width: 50%;
+}
+.container-ticket .img12_20k{
+    position: absolute;
+    transform: translateX(39%) translateY(-5%) rotate(22.135deg);
+    width: 50%;
+}
+.container-ticket .img12_50k{
+    transform: translateX(3%) translateY(34%);
+    position: relative;
+    width: 50%;
+}
+.container-chibi{
+    margin-top: -7%;
+}
+.img13{
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+}
 .container-sec5{
         text-align: center;
         display: block;
@@ -256,7 +307,51 @@
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        padding: 25px 23px 10px 23px;
+        padding: 43px 23px 37px 23px;
+}
+.img15{
+    width: 100%;
+}
+.img15_sk{
+    width: 100%;
+}
+.content_tittle{
+    color: #fff;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    position: relative;
+    list-style: none;
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5.4rem;
+}
+.content_tittle li{
+    position: relative;
+    left: 8%;
+    margin-bottom: -9%;
+}
+.content_tittle li::before{
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: -2.7rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.content_tittle ::after{
+    position: absolute;
+    content: "";
+    top: -18px;
+    left: -2rem;
+    height: 221%;
+    width: 0.4rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
 }
 .container-sec6{
     text-align: center;
@@ -270,39 +365,52 @@
     background-size: cover;
     text-align: center;
     padding: 28px 89px 24px 98px;
+    margin-top: 5%;
+}
+.img16{
+    width: 100%;
 }
 .event{
 
 }
 .content-event{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
     background-color: #010d7c;
     padding: 20px 16px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 30px;
+    margin-left: 50px;
+    max-width: 86%;
 }
 
 /* footer */
+
 .container-footer{
     background-color: #010d7c;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
+    font-size: 0.7rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0 2rem;
 }
 .img17{
-    margin-top: 7%;
-    width: 40%;
+    margin-top: -2%;
+    height: auto;
+    max-width: 30%;
 }
 .content-footer{
     text-align: center;
     
 }
-.text{
-    font-size: 15px;
-    color: #fff; 
-    
-    padding-bottom: 8%;
+p{
+    margin-top: 0;
+    margin-bottom: 1.2rem;
 }
