@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,800;1,900&display=swap');
+
 .pageview{
     background-image: url(../img/Background.png);
     max-width: 768px;
@@ -41,7 +41,7 @@
 }
 .img5{
     
-    background-image: url(/img/Frameboard.png);
+    background-image: url(../img/Frameboard.png);
     height: auto;
     position: relative;
     background-repeat: no-repeat;
