@@ -1,552 +1,233 @@
-@media (max-width:515px){
+
+@media screen and (max-width: 1024px) {
+    /* .content-play {
+        height: 25vh;
+    } */
     .pageview{
-        background-size: cover;
+        max-width: 1024px;
     }
-    .container a::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a.active::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a::before{
-        left: 46px;
-        width: 185px;
-        background-size: cover;
-        height: 65px;
-        top: 6px;
-    }
-    .container a img{
-        width: 33%;
-        top: 2px;
-        right: 1%;
-    }
-    .container a p{
-        font-size: 16px;
-        left: 13%;
-        top: 14%;
-    }
-    .container .content p{
-        font-size: 15px;
-        margin-left: 5px;
-        margin-top: -19px;
-    }
-    .container a.active{
-        padding-top: 2px;
-    }
-    .content-gift{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .content-event{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .img5{
-        padding: 24px 24px 18px 27px;
-        left: 5px;
-    }
-    .img10{
-        width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
-    }
-    h3{
-        font-size: 22px;
-        margin-top: 9px;
-    }
-    .img15{
-        padding: 26px 24px 14px 27px;
-        left: 3px;
-    }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
-    }
-    .content_tittle li{
-        font-size: 15px;
-        margin-top: -6%;
-    }
-    .content_tittle li::before{
-        width: 1.2rem;
-        height: 1.2rem;
-        margin-bottom: -25%;
-        left: -12%;
-    }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 356%;
-    }
-    p{
-        font-size: 16px;
-        margin-bottom: 0.1rem;
+    .sec2{
+        max-width: 100%;
     }
 }
-@media (max-width:431px){
+@media screen and (max-width: 950px) {
+    .sec1{
+        max-width: 100%;
+    }
+    .sec2{
+        max-width: 100%;
+    }
+    .content-play {
+        display: flex;
+        text-align: center;
+        align-items: center;
+       
+    }
+    .img5{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 825px) {
     .pageview{
-        background-size: cover;
+        max-width: 825px;
     }
-    .container a::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a.active::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a::before{
-        left: 46px;
-        width: 185px;
-        background-size: cover;
-        height: 65px;
-        top: 6px;
-    }
-    .container a img{
-        width: 33%;
-        top: 2px;
-        right: 1%;
-    }
-    .container a p{
+    .rules p,
+    .timeline .content1 p {
         font-size: 16px;
-        left: 13%;
-        top: 14%;
     }
-    .container .content p{
-        font-size: 15px;
-        margin-left: 5px;
-        margin-top: -19px;
+    #charger img {
+        width: 50%;
     }
-    .container a.active{
-        padding-top: 2px;
+    .right::after {
+        left: -3.77%;
     }
-    .content-gift{
-        font-size: 13px;
-        margin-left: 25px;
+    .sec1{
+        max-width: 100%;
     }
-    .content-event{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .img5{
-        padding: 24px 24px 18px 27px;
-        left: 5px;
-    }
-    .img10{
-        width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
-    }
-    h3{
-        font-size: 22px;
-        margin-top: 9px;
-    }
-    .img15{
-        padding: 26px 24px 14px 27px;
-        left: 3px;
-    }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
-    }
-    .content_tittle li{
-        font-size: 15px;
-        margin-top: -6%;
-    }
-    .content_tittle li::before{
-        width: 1.2rem;
-        height: 1.2rem;
-        margin-bottom: -25%;
-        left: -12%;
-    }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 356%;
-    }
-    p{
-        font-size: 16px;
-        margin-bottom: 0.1rem;
+    .sec2{
+        max-width: 100%;
     }
 }
-@media (max-width:426px){
-    .pageview{
-        background-size: cover;
+@media screen and (max-width: 770px) {
+    .sec1{
+        max-width: 100%;
     }
-    .container a::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
+    .right::after {
+        left: -4.125%;
     }
-    .container a.active::after{
-        width: 25px;
-        height: 25px;
-        left: 14px;
-        top: 20px;
+    .accordion-title p {
+        font-size: 25px;
     }
-    .container a::before{
-        left: 46px;
-        width: 185px;
-        background-size: cover;
-        height: 65px;
-        top: 6px;
-    }
-    .container a img{
-        width: 33%;
-        top: 2px;
-        right: 1%;
-    }
-    .container a p{
-        font-size: 16px;
-        left: 13%;
-        top: 14%;
-    }
-    .container .content p{
-        font-size: 15px;
-        margin-left: 5px;
-        margin-top: -19px;
-    }
-    .container a.active{
-        padding-top: 2px;
-    }
-    .content-gift{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .content-event{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .img5{
-        padding: 24px 24px 18px 27px;
-        left: 5px;
-    }
-    .img10{
-        width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
-    }
-    h3{
-        font-size: 22px;
-        margin-top: 9px;
-    }
-    .img15{
-        padding: 26px 24px 14px 27px;
-        left: 3px;
-    }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
-    }
-    .content_tittle li{
-        font-size: 15px;
-        margin-top: -6%;
-    }
-    .content_tittle li::before{
-        width: 1.2rem;
-        height: 1.2rem;
-        margin-bottom: -25%;
-        left: -12%;
-    }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 356%;
-    }
-    p{
-        font-size: 16px;
-        margin-bottom: 0.1rem;
-    }
-}
-@media (max-width:422px){
-    .content_tittle li::before{
-        width: 1.1rem;
-        height: 1.1rem;
-        margin-bottom: -25%;
-        left: -12%;
-    }
-    .content_tittle li{
-        font-size: 14px;
-    }
-    p{
-        font-size: 14px;
-        margin-bottom: 0.1rem;
-    }
-}
-@media (max-width:376px) {
-    .pageview{
-        background-size: cover;
-    }
-    .container a::after{
-        width: 20px;
-        height: 20px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a.active::after{
-        width: 20px;
-        height: 20px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a::before{
-        left: 39px;
-        width: 163px;
-        background-size: cover;
-        height: 62px;
-        top: 5px;
-    }
-    .container a img{
-        width: 30%;
-        top: 5px;
-        right: 1%;
-    }
-    .container a p{
-        font-size: 14px;
-        left: 13%;
-        top: 13%;
-    }
-    .container .content p{
-        font-size: 14px;
-        margin-left: 10px;
-        margin-top: -20px;
-    }
-    .container a.active{
-        padding-top: 2px;
-    }
-    .content-gift{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .content-event{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .img5{
-        padding: 20px 24px 18px 27px;
-        left: 5px;
-    }
-    .img10{
-        width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
-    }
-    h3{
-        font-size: 20px;
-        margin-top: 9px;
-    }
-    .img15{
-        padding: 22px 24px 14px 27px;
-        left: 3px;
-    }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
-    }
-    .content_tittle li{
-        font-size: 12px;
-        margin-top: -11%;
-    }
-    .content_tittle li::before{
-        width: 1.2rem;
-        height: 1.2rem;
-        margin-bottom: -25%;
-        left: -14%;
-    }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 356%;
-    }
-    p{
-        font-size: 14px;
-        margin-bottom: 0.1rem;
-    }
-}
-@media (max-width:321px){
-    .pageview{
-        max-width: 320px;
-        background-size: cover;  
-    }
-    .container a::after{
-        width: 20px;
-        height: 20px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a.active::after{
-        width: 20px;
-        height: 20px;
-        left: 14px;
-        top: 20px;
-    }
-    .container a::before{
-        left: 39px;
-        width: 152px;
-        background-size: cover;
-        height: 62px;
-        top: 5px;
-    }
-    .container a img{
-        width: 27%;
-        top: 10px;
-        right: 1%;
-    }
-    .container a p{
-        font-size: 13px;
-        left: 16%;
-        top: 17%;
-    }
-    .container .content p{
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: -20px;
-    }
-    .container a.active{
-        padding-top: 2px;
-    }
-    .content-gift{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .content-event{
-        font-size: 13px;
-        margin-left: 25px;
-    }
-    .img5{
-        padding: 18px 24px 14px 27px;
-        left: 5px;
-    }
-    .img10{
-        width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
-    }
-    h3{
-        font-size: 20px;
-        margin-top: 9px;
-    }
-    .img15{
-        padding: 22px 24px 14px 27px;
-        left: 3px;
-    }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
-    }
-    .content_tittle li{
-        font-size: 12px;
-        margin-top: -11%;
-    }
-    .content_tittle li::before{
-        width: 1.3rem;
-        height: 1.3rem;
-        margin-bottom: -25%;
-        left: -14%;
-    }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 356%;
-    }
-    p{
-        font-size: 13px;
-        margin-bottom: 0.1rem;
-    }
-}
-@media (max-width:281px){
-    .pageview{
-        background-size: cover;
-    }
-    .container a::after{
-        width: 20px;
-        height: 20px;
-        left: 2px;
-        top: 20px;
-    }
-    .container a.active::after{
-        width: 20px;
-        height: 20px;
-        left: 2px;
-        top: 20px;
-    }
-    .container a::before{
-        left: 32px;
-        width: 134px;
-        background-size: cover;
-        height: 56px;
-        top: 6px;
-    }
-    .container a img{
-        width: 30%;
-        top: 12px;
-        left: 69%;
-    }
-    .container a p{
-        font-size: 11px;
-        left: 15%;
-        top: 14%;
-    }
-    .container .content p{
-        font-size: 12px;
-        margin-left: 1px;
-        margin-top: -19px;
-    }
-    .container a.active{
-        padding-top: 2px;
-    }
-    .content-gift{
-        margin-left: 20px;
-    }
-    .content-event{
-        margin-left: 20px;
-    }
-    .img5{
-        padding: 14px 24px 11px 27px;
-        left: 1px;
+    .sec2{
+        max-width: 100%;
     }
     .img6{
-        padding: 17px 24px 11px 27px;
-        left: 1px;
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .sec1{
+        max-width: 100%;
+    }
+    #address p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .sec2{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .sec1{
+        max-width: 100%;
+    }
+    .right::after {
+        left: -5.5%;
+    }
+    .sec2{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .timeline .content p {
+        font-size: 14px;
+    }
+    .right::after {
+        left: -4.75%;
+    }
+    .plus, .minus {
+        width: 70%;
+    }
+    .accordion-title p {
+        font-size: 20px;
+    }
+    .accordion-content p {
+        font-size: 18px;
+    }
+    .img5{
+        margin-top: -6%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .timeline .content p {
+        font-size: 10px;
+    }
+    .timeline .content p {
+        margin: 32px 0 0 0;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .content-gift1{
+        background-size: contain;
+        max-width: 100%;
+    }
+    .img5{
+        margin-top: -5%;
+    }
+    .img6{
+        margin-top: 0%;
+    }
+    .gift{
+       
+    }
+    .content-gift{
+        font-size: 10px;
+        margin-left: 7%;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .img8{
+        margin-top: 1%;
     }
     .img10{
         width: 46%;
-        margin-left: 8px;
-        margin-bottom: 7px;
+        margin-bottom: 8%;
     }
-    h3{
-        font-size: 17px;
-        margin-top: 9px;
+    .container-sec5{
+        background-size: contain;
+        max-width: 100%;
     }
     .img15{
-        padding: 19px 29px 15px 26px;
-        left: 1px;
+        margin-top: -5%;
     }
-    .img16{
-        padding: 10px 26px 5px 27px;
-        left: 1px;
+    .content-event {
+        font-size: 10px;
+        margin-left: 7%;
     }
-    .content_tittle li{
-        font-size: 11px;
-        margin-top: -15%;
+    .right::after {
+        left: -5.5%;
     }
-    .content_tittle li::before{
-        width: 1.2rem;
-        height: 1.2rem;
-        margin-bottom: -25%;
-        left: -22%;
+    .plus, .minus {
+        width: 85%;
     }
-    .content_tittle li::after{
-        width: 0.4rem;
-        height: 407%;
+    .accordion-title p {
+        font-size: 15px;
     }
-    p{
+    .accordion-content p {
+        font-size: 13px;
+    }
+    .accordion-title {
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 376px){
+    .img5{
+        margin-top: -7%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .timeline .content p {
+        font-size: 10px;
+    }
+    .timeline .content p {
+        margin: 32px 0 0 0;
+    }
+    .address p{
+        font-size: 9px;
+    }
+    .content-gift1{
+        background-size: contain;
+        max-width: 100%;
+    }
+    .img6{
+        margin-top: -1%;
+    }
+    .gift{
+       
+    }
+    .content-gift{
+        font-size: 10px;
+        margin-left: 7%;
+    }
+    h3{
         font-size: 14px;
-        margin-bottom: 0.1rem;
+    }
+    .img8{
+        margin-top: 1%;
+    }
+    .img10{
+        width: 42%;
+        margin-bottom: 8%;
+    }
+    .container-sec5{
+        background-size: contain;
+        max-width: 100%;
+    }
+    .img15{
+        margin-top: -9%;
+    }
+    .content-event {
+        font-size: 10px;
+        margin-left: 7%;
+    }
+    .img5{
+        margin-top: -8%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .right::after {
+        left: -7.25%;
     }
 }
